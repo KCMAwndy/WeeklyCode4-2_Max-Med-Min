@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main() {
 	int num[3], i, j, subNum = 0;
-	printf("Enter 3 Numbwe : ");
+	printf("Enter 3 Number : ");
 	scanf("%d%d%d", &num[0], &num[1], &num[2]);
 	int max = num[0], med = 0, min = 0;
 	for (i = 0; i < 3; i++) {
@@ -18,6 +18,6 @@ int main() {
 	//		printf("%d\t",num[i]);
 	//	}
 	//	printf("\n");
-	printf("Max = %d , Med = %d , Min = %d", num[2], num[1], num[0]);
+	printf("Maximum\t= %d \nMedium\t= %d \nMinimum\t= %d", num[2], num[1], num[0]);
 	return 0;
 }
